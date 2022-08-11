@@ -19,4 +19,8 @@ In Operation folder we have operation of QGA :
 4 Rotation.cs : this class is proposed lookup table for QGA base of qutrit
 5 Update.cs : use to generate next population
   
-  
+In Fitness.cs, the Calc_Function method must be modify depends of test function
+In Initail.cs, chromosome size in Initial_QuantumPopulation method must be modify depends of test function
+PopulationSize can be set in Program.cs
+Angles of rotation gate can be set in Update.cs
+we use one angle for all rotation gate, this angle is a variable named LookUpTable_Qutrit_Teta
